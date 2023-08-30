@@ -1,0 +1,172 @@
+
+
+*{
+    margin: 0%;
+    padding: 0%;
+    /* font-family: 'Srisakdi', cursive; */
+    font-weight: 500;
+}
+body{
+    background: url("./assets/back-2.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center ;
+    flex-direction: column;
+    
+}
+footer{
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 1.8rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+}
+h1{
+    font-size: 2rem;
+    font-weight: 800;
+    color: rgb(75, 0, 75);
+}
+.main{
+    width: 60vw;
+    height: 80vh;
+    background-color: rgb(255, 255, 255);
+    border-radius: 1rem;
+    padding: 1rem;
+    overflow-x:hidden;
+    overflow-y:scroll;
+    border: 3px solid purple;
+    box-shadow: 3px 3px 5px purple;
+}
+::-webkit-scrollbar {
+    width: 0px;
+    border: 2px solid blue;
+}
+#eventInput{
+    padding: .5rem;
+    /* border: none; */
+    width: 55%;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 3px 3px 6px rgb(167, 165, 165);
+    outline: none;
+    border: none;
+    color: purple;
+}
+#eventDate{
+    padding: .5rem;
+    width: 22%;
+    font-weight: 600;
+    font-size: 1.1rem;
+    box-shadow: 3px 3px 6px rgb(167, 165, 165);
+    outline: none;
+    border: none;
+
+}
+#eventAdd{
+    padding: .5rem;
+    border-radius: .2rem;
+    font-weight: 600;
+    box-shadow: 3px 3px 5px rgb(80, 231, 173);
+    font-size: 1.2rem;
+    background-color: rgb(21, 223, 206);
+    border: none;
+    width: 4rem;
+}
+.input{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 4rem;
+    box-shadow: 3px 3px 6px rgb(167, 165, 165);
+    border-radius: .5rem;
+    background-color: white;
+    position: sticky;
+    top: 0;
+
+}
+.onClick{
+    font-size: 1.4rem;
+}
+.todoDiv{
+    border:2px solid purple;
+    width: 100%;
+    height: 4.3rem;
+    margin: 1rem 0rem;
+    border-radius: .5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: 3px 3px 6px rgb(71, 34, 71);
+}
+.todoPD{
+
+width: 54%;
+height: 50%;
+
+color: purple;
+font-weight: 700;
+border: 1px solid darkcyan;
+padding: 0rem .7rem;
+display: flex;
+justify-content: space-between;
+align-items: center;
+box-shadow: 2px 2px 4px rgb(78, 168, 168);
+
+}
+.todoEdit{
+
+    height: 50%;
+    width: 18%;
+    background-color: green;
+    border: none;
+    font-size: .8rem;
+    font-weight: 600;
+
+}
+.todoDelete{
+    height: 50%;
+    width: 18%;
+    background-color: red;
+    border: none;
+    font-size: .8rem;
+    font-weight: 600;
+
+}
+.todoP{
+    font-size: 1.5rem;
+    width: 67%;
+    height: 90%;
+}
+.todoD{
+    width: 27%;
+    height: 90%;
+    font-size: .9rem;
+    color: black;
+    font-weight: 600;
+    padding: 2px;
+    height: 1.2rem;
+    border-radius: 2px;
+    box-shadow: 1px 1px 4px black;
+}
+.delete{
+    display: none;
+}
+.editNone{
+    display: none;
+}
+.finalB{
+    float: right;
+}
+.todoSpan{
+    width: .5rem;
+    height: .5rem;
+    border-radius: 50%;
+    background-color: purple;
+}
